@@ -13,13 +13,13 @@ Au minimum le fichiers de notes, contenant toutes vos observation.
 Idéalement, un fork du projet avec vos notes et les modifications que vous avez réaliser.
 
 ## Première étape - L'analyse
-- [ ] Trouver le ou les langages utilisé
-- [ ] Trouver le ou les framework principaux utilisé
-- [ ] Trouvez le but général de l'application
-- [ ] Faire une première estimation de ce qu'il faut pour faire marcher l'application (prendre des notes)
+- [x] Trouver le ou les langages utilisé
+- [x] Trouver le ou les framework principaux utilisé
+- [x] Trouvez le but général de l'application
+- [x] Faire une première estimation de ce qu'il faut pour faire marcher l'application (prendre des notes)
 
 ## Deuxième étape - La prise en main
-- [ ] Faire marcher l'application
+- [x] Faire marcher l'application
 - [ ] Créer un mode d'emploi pour faire marcher l'application (un docker-compose par exemple ?)
 - [ ] Trouver les dépendances non maintenu (les trouver et les noter, pas les modifier !)
 

@@ -8,3 +8,23 @@ services:
     volumes:
       - ./:/var/www/html
     command: php -S 0.0.0.0:80 -t .
+
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: racoin
+    ports:
+    - "3306:3306"
+    volumes:
+    - db_data:/var/lib/mysql
+    - ./bdd.sql:/docker-entrypoint-initdb.d/bdd.sql
+    healthcheck:
+      test: [ "CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot" ]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  db_data:

@@ -1,0 +1,7 @@
+driver=mysql
+host=db
+database=racoin
+username=
+password=
+port=3306
+charset=utf8

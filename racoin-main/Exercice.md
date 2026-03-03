@@ -20,8 +20,8 @@ Idéalement, un fork du projet avec vos notes et les modifications que vous avez
 
 ## Deuxième étape - La prise en main
 - [x] Faire marcher l'application
-- [ ] Créer un mode d'emploi pour faire marcher l'application (un docker-compose par exemple ?)
-- [ ] Trouver les dépendances non maintenu (les trouver et les noter, pas les modifier !)
+- [x] Créer un mode d'emploi pour faire marcher l'application (un docker-compose par exemple ?)
+- [x] Trouver les dépendances non maintenu (les trouver et les noter, pas les modifier !)
 
 ## Troisième étape - La maintenance
 - [ ] Notez dans une TODO list les améliorations que vous avez en tête
